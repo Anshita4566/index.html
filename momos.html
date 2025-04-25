@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delicious Recipes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+      background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836'); /* Kitchen background */
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 40px;
+      color: #d35400;
+      text-shadow: 1px 1px #fff;
+    }
+    .recipe {
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .recipe h2 {
+      color: #e67e22;
+    }
+    .cluster {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .recipe img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .content {
+      flex: 1;
+      min-width: 300px;
+    }
+    ul {
+      margin-top: 0;
+    }
+    .instructions {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Veg Momos Recipe</h1>
+
+    <!-- Step 1: Ingredients -->
+    <div class="step">
+      <h2>1. Ingredients</h2>
+      <ul>
+        <li>1 cup all-purpose flour</li>
+        <li>1/2 cup chopped cabbage</li>
+        <li>1/4 cup grated carrot</li>
+        <li>1/4 cup finely chopped onion</li>
+        <li>1 tsp ginger-garlic paste</li>
+        <li>1 tbsp soy sauce</li>
+        <li>Salt and pepper to taste</li>
+        <li>Water (for kneading)</li>
+      </ul>
+      
+    </div>
+
+    <!-- Step 2: Making the Dough -->
+    <div class="step">
+      <h2>2. Prepare the Dough</h2>
+      <p>Mix all-purpose flour with a pinch of salt. Add water slowly and knead into a soft dough. Cover and rest for 20 minutes.</p>
+      <img src="pizza.jpg" alt="Dough preparation">
+    </div>
+
+    <!-- Step 3: Cooking the Filling -->
+    <div class="step">
+      <h2>3. Make the Veg Filling</h2>
+      <p>Heat a little oil in a pan. Sauté onion, cabbage, and carrots. Add ginger-garlic paste, soy sauce, salt, and pepper. Cook for 3–4 mins and cool the mix.</p>
+      <img src="https://images.unsplash.com/photo-1606851092830-de84dba3e22e" alt="Veg filling for momos">
+    </div>
+
+    <!-- Step 4: Shaping Momos -->
+    <div class="step">
+      <h2>4. Shape the Momos</h2>
+      <p>Roll out small dough balls into circles. Add a spoonful of filling in the center. Fold and pleat the edges to seal in your preferred shape.</p>
+      <img src="https://images.unsplash.com/photo-1625914675467-1c2c2a0e1c91" alt="Shaping the momos">
+    </div>
+
+    <!-- Step 5: Steaming -->
+    <div class="step">
+      <h2>5. Steam and Serve</h2>
+      <p>Place momos in a steamer and steam for 10–12 minutes. Serve hot with spicy momo chutney or soy sauce!</p>
+      <img src="Momos-2.webp" alt="Steamed momos ready to eat">
+    </div>
+  </div>
+</body>
+</html>
